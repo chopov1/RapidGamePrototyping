@@ -4,3 +4,6 @@ The main repository for rapid game prototyping. This repository will change a lo
 
 # MDM
 One of the main goals of this study is to capture design decisions as they happen, rather then looking at it after the fact. Ideally I will be creating a process journal along with following the MDM https://www.gamesasresearch.com/mdm methodology to try and document design decisions throughout the development of seven prototypes throughout the semester.
+
+# Prototype 1
+https://github.com/chopov1/Prototype1
