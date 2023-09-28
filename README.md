@@ -7,3 +7,6 @@ One of the main goals of this study is to capture design decisions as they happe
 
 # Prototype 1
 https://github.com/chopov1/Prototype1
+
+# Prototype 2
+https://github.com/chopov1/RapidGamePrototyping/blob/main/TopDownShooterProcess/TopDownShooter.md
