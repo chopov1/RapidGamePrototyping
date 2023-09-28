@@ -2,12 +2,14 @@
 
 ### Top Down Shooter
 
-![Alt text](jB1dTwR.png)
+
 
 
 I took alot of inspiration from dead ops arcade 2 when looking at fps mechanics. 
 In dead ops arcade it feels like they use raycast shooting, and upon research I found all the call of duty games use hitscan for most weapons, aside from rockets or snipers which use projectiles as they can be slower and or have bullet drop.
-I also played and looked at a game like fortnite which is not top down but is a shooter made in unreal engine, and I found similar information about the shooting mechanics. 
+I also played and looked at fortnite which is not top down but is a shooter made in unreal engine, and I found similar information about the shooting mechanics. 
+
+![Alt text](jB1dTwR.png)
 
 My hitscan system
 * when player holds the shoot button
