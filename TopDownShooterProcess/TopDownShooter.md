@@ -52,6 +52,13 @@ I didnt like how the bullets in dead ops arcade stayed in the same place so it w
 
 <video src="Untitled%20video%20-%20Made%20with%20Clipchamp%20(3).mp4" controls title="Title"></video>
 
-It still looks very shitty, and I need to figure out how to position the raycast to start from the front of the gun. So far everything I have tried offsets in a weird way depending on world positon. It is very weird coming from unity, as I just want to grab the transform of this arrow component that I was using for spawning projectiles, but apparently thats not a pattern unreal wants you to follow. I talked to someone in the Unreal slackers discord who pointed out the "Gameobject" pattern I was following as a unity programmer, I just wanted to get the gameobjects position and use it to start the raycast. Not everything has a transform in unreal however. Gonna put that on the back burner for now as its more of a cosmetic issue. 
+It still looks very shitty, and I need to figure out how to position the raycast to start from the front of the gun. So far everything I have tried offsets in a weird way depending on world positon. It is very weird coming from unity, as I just want to grab the transform of this arrow component that I was using for spawning projectiles, but apparently thats not a pattern unreal wants you to follow. I talked to someone in the Unreal slackers discord who pointed out the "Gameobject" pattern I was following as a unity programmer, I just wanted to get the gameobjects position and use it to start the raycast. Not everything has a transform in unreal however. I keep really wanting to find the "empty gameobject" equivelent in unreal to solve stuff like this. I found a quick solution by moving the mesh so the gun tip location is in the center of actor. It needs to be in the center because I need to use GetActorLocation() to start the raycast and spawn the particles. 
+![Alt text](<Screenshot 2023-09-28 201114.png>)
+
+If i add any numbers to this when the character rotates things get offset.
+![Alt text](<Screenshot 2023-09-28 201249.png>)
+
+
+Gonna put that on the back burner for now as its more of a cosmetic issue. 
 
 The next step is to look into enemy AI.
