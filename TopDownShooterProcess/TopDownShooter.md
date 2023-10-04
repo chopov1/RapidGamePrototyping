@@ -62,3 +62,17 @@ If i add any numbers to this when the character rotates things get offset.
 Gonna put that on the back burner for now as its more of a cosmetic issue. 
 
 The next step is to look into enemy AI.
+https://www.youtube.com/watch?v=TjoE7Pmank0&list=PLZyvGU0G457qe1EJ6KX9NhxDrK8EoeOvo&index=1
+gonna follow this tutorial and see what I end up with
+
+## Saturday 30th, September 2023 - AI
+
+I followed the tutorial linked above for a bit, untill I realized this guy bassicly ripped the whole thing from another tutorial that was much more in depth.
+
+https://www.youtube.com/watch?v=zNJEvAGiw7w&list=PL4G2bSPE_8ukuajpXPlAE47Yez7EAyKMu
+
+I moved over to learning about unreals behavior tree through this guy named Ryan laleys tutorial series. This worked pretty well. I got aquainted with things like blackboard keys, selectors, tasks, and services. I noticed they stayed true in their naming to programming patterns from the gang of 4 book, one example is decorators, used on sequences in the behavior tree to direct the AI down the correct path on the tree. 
+
+I ran into a problem regarding when to trigger the attack animation. As my game is a co-op game, it is a little more complicated to find the distance from the enemy to the current player. I created a way to find the closest player in a task, but in the tutorial the guy opted to use an interface to find the player when attacking as it is more performant then casting. I am not able to loop through all my players in the same way in the interface as I am in the task. 
+
+I figure I am going to need to trigger attack anims a different way. Going to put a pin in this as damage still works becuase I am currently doing it through a collider. In the prototyping phase I dont want to dedicate too much effort to this as there are other parts of the game that are more important.
