@@ -10,3 +10,7 @@ https://github.com/chopov1/Prototype1
 
 # Prototype 2
 https://github.com/chopov1/RapidGamePrototyping/blob/main/TopDownShooterProcess/TopDownShooter.md
+
+# Prototype 3
+Process Journal - https://github.com/chopov1/RapidGamePrototyping/blob/main/ChicaghoulProcess/ProcessJounral.md
+Repo - https://github.com/chopov1/Prototype3
