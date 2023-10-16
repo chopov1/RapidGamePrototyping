@@ -36,6 +36,7 @@ I also spent alot of time looking at interesting VHS camera shaders.
 https://github.com/IAMColumbia/ApocolypseTrain/assets/76492881/ad835c0c-751e-4173-b961-4721e68f978e
 
 I was able to achieve this effect with the VHS tape which I found to be informative and a nice introduction to application of shaders, but didnt fit with the theme of our game.
+The model I used in the video was the same free asset used by Teke Teke and many other indie horror games.
 
 ## Thursday October 12, 2023
 
