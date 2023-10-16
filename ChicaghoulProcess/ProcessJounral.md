@@ -40,3 +40,18 @@ I was able to achieve this effect with the VHS tape which I found to be informat
 ## Thursday October 12, 2023
 
 I put on my c# boots and coded a quick trigger system for our game, the idea was to creare a modular system to allow the player to trigger things like openeing doors, jumpscares, and audio files.
+
+https://github.com/IAMColumbia/ApocolypseTrain/assets/76492881/b5ed5f4a-94a0-46b7-9798-c818f620307d
+
+I also started looking deeper into how shaders are made and I tried my hand at writing my own. [I Followed this Tutorial series to make my own](https://www.youtube.com/watch?v=1mWrX0YRtRM)
+
+This really opened my eyes to how much of game polish uses shaders. Alot of things I didnt even know how developers did, I now realize they probobly did through shaders. It is an area of game development I am pretty novice with but I have started to get super excited about. I managed to create this from the tutorial
+
+https://github.com/IAMColumbia/ApocolypseTrain/assets/76492881/6126ea83-0859-4461-9c54-bf501db2f09e
+
+Next step I think is to look into camera shaders, as my end goal for this game is to create a fog effect using camera shaders. Not sure if ill reach that skill level but I will try.
+
+Another thing to note is that coding shaders in Unity using visual studio sucks. You either get grey text or a ton of red squigglies. From reading forums I discovered this is because unitys shaders use a combination of languages from hlsl to unitys own shader methods. The best solution is to use VSCode, which doesnt have intellisense specific to unity shaders but it has basic type highlighting, spell checking and auto fill which I deffinitly take for granted as a programmer.
+
+![Alt text](<Screenshot 2023-10-15 202245-1.png>)
+
