@@ -9,6 +9,8 @@ The idea is to make a small indie horror experience that doesnt have much code a
 
 These games emulate ps1 style graphics in a 3d space, and are bassicly a walking simulator with jump scares.
 
+The game was for a chicago game jam and the idea we came up with was a spooky trip on the cta. You would wait in the station for a bit, interact with some npc's, then get on the train as you try to go home. The train would end up stopping and you would need to make your way through the train cars in order to get to the front car, where you find the conductor possessed and theres a final jumpscare. 
+
 ## Thursday October 5th, 2023
 
 The first step was to find a way to emulate that pixelated feel in 3D within the unity engine. 
@@ -39,7 +41,7 @@ I was able to achieve this effect with the VHS tape which I found to be informat
 
 ## Thursday October 12, 2023
 
-I put on my c# boots and coded a quick trigger system for our game, the idea was to creare a modular system to allow the player to trigger things like openeing doors, jumpscares, and audio files.
+I put on my c# boots and coded a quick trigger system for our game, the idea was to creare a modular system to allow the designer to setup triggers to allow the player to do things like open doors, trigger an object to move accross the screen for a jumpscares and play spooky audio files. 
 
 https://github.com/IAMColumbia/ApocolypseTrain/assets/76492881/b5ed5f4a-94a0-46b7-9798-c818f620307d
 
