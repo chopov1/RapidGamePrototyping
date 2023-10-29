@@ -14,3 +14,6 @@ https://github.com/chopov1/RapidGamePrototyping/blob/main/TopDownShooterProcess/
 # Prototype 3
 Process Journal - https://github.com/chopov1/RapidGamePrototyping/blob/main/ChicaghoulProcess/ProcessJounral.md
 Repo - https://github.com/chopov1/Prototype3
+
+# Prototype 4
+Process Journal - https://github.com/chopov1/Prototype4/blob/main/Artifacts/processjournal.md
