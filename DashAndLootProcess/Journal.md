@@ -61,3 +61,50 @@ I thought if I cant make the player have more control over the zombies, why not 
 ![Alt text](<Screenshot 2023-11-14 113116.png>)
 
 https://github.com/IAMColumbia/ApocolypseTrain/assets/76492881/120ccf4a-d8e3-49be-ac0c-02df8c20ae56
+
+
+
+
+Combat ideas
+-numbers go up
+-beat em up - castle crashers - pick up weapons
+-overcooked isnt fun cuz the numbers go up, different playstyles
+
+- station thing, moment of rest. cant heal the train till you get to the station, choose between healing the train and some sort of character upgrade, natural point for boss battle
+
+stop and wait for gates to open fend guys off
+
+continue to come up with new ways to play
+
+character to produce traps
+
+reduce cooldown, dash damage enemies
+
+if you pick up this weapon cant pick up the coal
+
+if you get hit drop the coal,
+
+weapons have durability
+
+bomb, put stuff on the train to save it for later
+
+fortnite type loot, same weapon different stats
+
+play accumulate resources, get to boss battle climax, rest and upgrade
+
+everytime you kill 100 zombies, replenish health
+
+Train dying is lose condition
+
+the way you win is becuase someone died and it takes them awhile to respawn, think about perspective of enemies
+
+train should have health, gives players a common goal
+
+either heal train or gain stats
+stats have trade-offs
+
+each player chooses for themselves, people can argue about that and take sacrifices.
+
+what does boss encounter look like
+
+maybe not fuel, money spend money when you get to station
