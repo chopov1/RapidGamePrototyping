@@ -4,7 +4,7 @@ I had created an asset that I wanted to play when a projectile shot by the playe
 
 ![Alt text](<Screenshot 2023-12-04 205558.png>)
 
-When it explodes, it destroys itself, so if it was the one to play the sound the sound would be destoryed with it. 
+When it explodes, it destroys itself, so if the projectile was the object playing the sound the sound would be destoryed with it. 
 
 Two ways to go about this,  is to use AudioSource.PlaySoundAtPoint() or to spawn another gameobject to handle playing the sound.
 
@@ -25,7 +25,13 @@ It uses the singleton pattern so that any script can play a sound.
 
 When it came to implementing the audio for the player I created a playeraudio manager. This is because I needed specific functionality that I did not want to store in the world audio manager. 
 
-I had the player audio manager use the singleton pattern as well, but instead of taking in clips it would just take in a string for an ID of the audio to play. The ID would be used to lookup an Audio Data struct to play which contained the random files to choose from, as well as other properties specific to that "audio event". This way I can specifiy properties for each event, without needing to touch the code. It also minimized code as I dont need to pass all this data arbitrarily through a function and store it in lots of places.
+![Alt text](<Screenshot 2023-12-06 104637.png>)
+
+I had the player audio manager use the singleton pattern as well, but instead of taking in clips it would just take in a string for an ID of the audio to play. 
+
+![Alt text](<Screenshot 2023-12-06 104637-1.png>)
+
+The ID would be used to lookup an Audio Data struct to play which contained the random files to choose from, as well as other properties specific to that "audio event". This way I can specifiy properties for each event, without needing to touch the code. It also minimized code as I dont need to pass all this data arbitrarily through a function and store it in lots of places.
 
 ![Alt text](<Screenshot 2023-12-04 205340.png>)
 
